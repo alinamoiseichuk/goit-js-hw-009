@@ -17,7 +17,7 @@ form.addEventListener("submit", event => {
     const email = input.value.trim();
     const message = textarea.value.trim();
     if (email === "" || message === "") {
-        return alert("Будь-ласка, заповніть всі поля форми")
+        return alert("Будь-ласка, заповніть всі поля форми!")
     }
     console.log(`email: ${email}, message: ${message}`);
     localStorage.removeItem(STORAGE_KEY);
